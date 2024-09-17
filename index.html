@@ -5,57 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>welcome to my calculator</title>
-    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="index.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="flex justify-center items-center h-100">
+<body class="flex justify-center items-center h-100 bg-blue-100">
 
-    <div class="container mx-auto px-4 bg-slate-100 w-80 pb-3 mt-5">
+    <div class="container mx-auto px-4 bg-slate-100 w-80 pb-3 mt-5 shadow-2xl rounded-md">
 
         <h1 class=" flex justify-center my-5 font-semibold text-lg">My Calculator</h1>
-        <input type="text" disabled class=" input w-60 flex justify-center mx-auto p-2 outline rounded-sm">
+        <input type="text" disabled class=" input w-70 flex justify-center mx-auto p-2 outline rounded-sm">
 
         <div class="row1 flex justify-center items-center gap-4 my-2 mt-4">
-            <button vlaue="C" class="btn bg-slate-500 p-2 rounded-sm text-white">C</button>
-            <button class="btn bg-slate-500 p-2 rounded-sm text-white">M-</button>
-            <button class="btn bg-slate-500 p-2 rounded-sm text-white">M+</button>
-            <button class="btn bg-slate-500 p-2 rounded-sm text-white">+/-</button>
-            <button class="btn bg-slate-500 p-2 rounded-sm text-white">ON</button>
+            <button value="C" class="btn bg-[#03e9f4] p-2 rounded-sm text-white">C</button>
+            <button class="btn bg-slate-500 p-2 rounded-sm text-white shadow-xl">M-</button>
+            <button class="btn bg-slate-500 p-2 rounded-sm text-white shadow-xl" >M+</button>
+            <button class="btn bg-slate-500 p-2 rounded-sm text-white shadow-xl">+/-</button>
+            <button class="btn bg-slate-500 p-2 rounded-sm text-white shadow-xl">ON</button>
+        </div>
+        <div class="row flex justify-center items-center gap-5 my-2">
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white  shadow-xl">7</button>
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white  shadow-xl">8</button>
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white  shadow-xl">9</button>
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white  shadow-xl">%</button>
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white  shadow-xl">></button>
+        </div>
+
+        <div class="row flex justify-center items-center gap-5 my-2">
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white   shadow-xl">4</button>
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white   shadow-xl">5</button>
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white   shadow-xl">6</button>
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white   shadow-xl">+</button>
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white   shadow-xl">/</button>
         </div>
 
 
         <div class="row flex justify-center items-center gap-5 my-2">
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">7</button>
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">8</button>
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">9</button>
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">%</button>
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">></button>
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white   shadow-xl">1</button>
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white   shadow-xl">2</button>
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white   shadow-xl">3</button>
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white   shadow-xl">*</button>
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white   shadow-xl">=</button>
         </div>
 
         <div class="row flex justify-center items-center gap-5 my-2">
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">4</button>
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">5</button>
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">6</button>
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">+</button>
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">/</button>
-        </div>
-
-
-        <div class="row flex justify-center items-center gap-5 my-2">
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">1</button>
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">2</button>
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">3</button>
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">*</button>
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">=</button>
-        </div>
-
-        <div class="row flex justify-center items-center gap-5 my-2">
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">0</button>
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">00</button>
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">.</button>
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">*</button>
-            <button class="btn bg-slate-500 p-3 rounded-sm text-white">-</button>
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white  shadow-xl">0</button>
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white  shadow-xl">00</button>
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white  shadow-xl">.</button>
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white  shadow-xl">*</button>
+            <button class="btn bg-slate-500 p-3 rounded-sm text-white  shadow-xl">-</button>
         </div>
 
 
